@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>GSSM Computer Science</title>
+</head>
+
+<body>
+    <header id="home">
+        <h1>GSSM Computer Science</h1>
+    </header>
+    <section id="about-us">
+        <h2>About</h2>
+        <p>This website serves as a platform to showcase projects done by GSSM's computer science department.</p>
+        <ul>
+            <li><a href="https://www.acm.org/code-of-ethics">Association for Computing Machinery Code of Ethics</a></li>
+        </ul>
+
+    </section>
+    <section id="projects">
+        <h2 onclick="toggleProjectLinks()">Projects ▼</h2>
+        <section id="project-links">
+            <h3>Completed</h3>
+            <h3>In Progress</h3>
+            <ul>
+                <li><a href="website.html">Websites</a></li>
+            </ul>
+            <h3>Not Started</h3>
+            <ul>
+                <li><a href="bird.html">Bird Project</a></li>
+                <li><a href="kiosk.html">Lobby Kiosk</a></li>
+                <li><a href="#">Project 3</a></li>
+                <li><a href="#">Project 4</a></li>
+            </ul>
+        </section>
+    </section>
+    <section id="other">
+        <h2>Other</h2>
+        <ul>
+            <li><a href="wompsci.html">Women in Engineering and Computer Science</a></li>
+            <li><a href="hackathons.html">Hackathons</a></li>
+            <li><a href="outreach.html">Outreach</a></li>
+        </ul>
+    </section>
+
+    <section id="footnotes">
+        <h2></h2>
+        <ul>
+            <li>Created by: Becky Zheng</li>
+            <li>Edited by: Evan Phillips</li>
+            <li>Last edited: 9/2/24</li>
+        </ul>
+    </section>
+
+
+<img src="./images/cucumberDeg.png" alt="Floating Image" class="floating-image">
+    <script>
+    function toggleProjectLinks() {
+    var projectLinks = document.getElementById("project-links");
+    projectLinks.style.display = (projectLinks.style.display === "none" || projectLinks.style.display === "") ? "block" : "none";
+    }
+</script>
+
+    
+
+
+</body>
+
+</html>
