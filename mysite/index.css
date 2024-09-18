@@ -1,28 +1,66 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 header {
-    background-color: #3498db;
     color: #fff;
     padding: 20px;
-    text-align: center;
+    background-image: linear-gradient(to bottom right, 
+                                        black 0%, 
+                                        indigo 50%, 
+                                        rgb(40, 1, 40) 80%, 
+                                        black 100%);
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.9);
 }
 
-#about-us {
-    margin: 20px;
+h1 {
+    font-size: 100px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    padding-left: 510px; /* Center text */
 }
 
-#about-us h2 {
-    color: #333;
-    padding: 10px;
-    background-color: #f2f2f2;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+/* Add formating to the body */
+#updated-body {
+    padding-left: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Format the about section */
+.about-header {
+    font-size: 30px;
+    color: black;
+    font-size: 45px;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+.about-body {
+    padding-right: 820px;
+    font-size: 25px;
+}
+
+.learn-more-button {
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 8px;
+    background-color: #161616;
+    transform: scale(1.5);
+    border: none;
+    outline: none;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #FFF;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+.learn-more-button:hover {
+    background-color: #453c3c;
+    opacity: 88%;
+}
+
+/* *** Computer Science Clubs *** */
+
+/* Comp-Sci Club */
+.comp-sci-header {
+    font-size: 35px;
 }
 
 #projects {
@@ -68,10 +106,6 @@ header {
     font-weight: bold;
 }
 
-#project-links ul li a:hover {
-    text-decoration: underline;
-}
-
 #other {
     margin: 20px;
 }
@@ -97,28 +131,6 @@ header {
     margin-bottom: 5px;
 }
 
-#footnotes {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-
-    padding: 20px;
-
-}
-
-#footnotes ol {
-    list-style-type: decimal;
-    /* Use numbers for footnotes */
-    padding-left: 20px;
-    /* Add some space for better readability */
-}
-
-
-
-h2 {
-    color: #333;
-}
-
 h3 {
     color: #333;
 }
@@ -137,42 +149,19 @@ li {
     margin-bottom: 10px;
 }
 
-a {
-    text-decoration: none;
-    color: #3498db;
-    font-weight: bold;
+#footnotes {
+    bottom: 0;
+    right: 0;
+    padding: 20px;
 }
 
-a:hover {
-    text-decoration: underline;
+#footnotes ol {
+    list-style-type: decimal;
+    padding-left: 20px;
 }
 
-.floating-image {
-position: fixed;
-top: 250px;
-right: 950px;
-width: 50px;
-animation: floatImage 5s infinite alternate;
-}
-
-@keyframes floatImage {
-    0% {
-    transform: translate(0, 0);
-    }
-
-    25% {
-        transform: translate(250px, 120px);
-    }
-    
-    50% {
-        transform: translate(500px, 0px);
-    }
-    
-    75% {
-        transform: translate(750px, 120px)
-    }
-    
-    100% {
-        transform: translate(900px, 0px)
-    }
+.cucumber-image {
+    top: 10px;
+    right: 25px;
+    width: 50px;
 }
