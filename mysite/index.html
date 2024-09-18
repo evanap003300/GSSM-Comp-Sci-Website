@@ -5,21 +5,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <title>GSSM Computer Science</title>
 </head>
 
 <body>
     <header id="home">
-        <h1>GSSM Computer Science</h1>
+        <h1>GSSM <br>Computer <br>Science</h1>
     </header>
-    <section id="about-us">
-        <h2>About</h2>
-        <p>This website serves as a platform to showcase projects done by GSSM's computer science department.</p>
-        <ul>
-            <li><a href="https://www.acm.org/code-of-ethics">Association for Computing Machinery Code of Ethics</a></li>
-        </ul>
 
-    </section>
+    <div id="updated-body">
+        <div id="about-section">
+            <h2 class="about-header">About: Information about this webpage</h2>
+            <p class="about-body">This website serves as a platform to showcase projects done by GSSM's computer science department. There are many projects that are on-going and their progress will be displayed by this website. Additionaly, any other acomplishments done in the computer sciecne sector will be displayed here.</p>
+            <a href="acknowledgements.html">
+                <button class="learn-more-button">Learn More</button>
+            </a>
+        </div>
+
+        <div id="comp-sci-club">
+            <h2 class="comp-sci-header">Computer Science Club</h2>
+        </div>
+    </div>
+
     <section id="projects">
         <h2 onclick="toggleProjectLinks()">Projects ▼</h2>
         <section id="project-links">
@@ -51,21 +59,20 @@
         <ul>
             <li>Created by: Becky Zheng</li>
             <li>Edited by: Evan Phillips</li>
-            <li>Last edited: 9/2/24</li>
+            <li>Last edited: 9/18/24</li>
+            <li>Honor Code</li>
         </ul>
     </section>
 
 
-<img src="./images/cucumberDeg.png" alt="Floating Image" class="floating-image">
-    <script>
+<img src="./images/cucumberDeg.png" class="cucumber-image">
+
+<script>
     function toggleProjectLinks() {
     var projectLinks = document.getElementById("project-links");
     projectLinks.style.display = (projectLinks.style.display === "none" || projectLinks.style.display === "") ? "block" : "none";
     }
 </script>
-
-    
-
 
 </body>
 
