@@ -1,3 +1,5 @@
+Work in progress
+
 - This project updates the work previously done by Becky Zheng
 - This project is a website that showcases the Computer Science Department at GSSM's accomplishments
 - This website can be accessed while at GSSM by with the url: http://10.1.11.112/
