@@ -4,7 +4,7 @@ This is a custom website I designed and developed for the Computer Science Depar
 
 ## Technologies Used
 - **HTML** — For semantic and structured web content.
-- **CSS** — For responsive design and visual styling.
+- **CSS** — For visual styling.
 
 ## Project Purpose
 The goal of this project was to create a simple, easy-to-navigate website that showcases the department's academic focus, extracurricular activities, and student achievements.
